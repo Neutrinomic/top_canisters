@@ -1,0 +1,18 @@
+{
+  "canisters": {
+    "scanner": {
+      "type": "motoko",
+      "main": "src/scanner.mo"
+    },
+    "scannertwo": {
+      "type": "motoko",
+      "main": "src/scanner.mo"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": "mops sources"
+    }
+  },
+  "dfx": "0.21.0"
+}
